@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Home | Mynaukri]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-17T08:55:30 IST" name="Default suite" finished-at="2024-11-17T08:58:11 IST" duration-ms="161031">
+    <groups>
+    </groups>
+    <test started-at="2024-11-17T08:55:30 IST" name="Default test" finished-at="2024-11-17T08:58:11 IST" duration-ms="161031">
+      <class name="testscripts.tc00">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.tc00@2d901eb0]" started-at="2024-11-17T08:55:30 IST" name="openApp" finished-at="2024-11-17T08:55:50 IST" duration-ms="19960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc00()[pri:0, instance:testscripts.tc00@2d901eb0]" started-at="2024-11-17T08:55:50 IST" name="tc00" finished-at="2024-11-17T08:58:10 IST" duration-ms="140479" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Home | Mynaukri]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc00 -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.tc00@2d901eb0]" started-at="2024-11-17T08:58:10 IST" name="CloseApp" finished-at="2024-11-17T08:58:11 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc00 status=SUCCESS method=tc00.tc00()[pri:0, instance:testscripts.tc00@2d901eb0] output=Home | Mynaukri]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testscripts.tc00 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
