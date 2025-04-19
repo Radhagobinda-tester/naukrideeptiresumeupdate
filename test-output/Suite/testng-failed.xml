@@ -3,6 +3,13 @@
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="tests" name="test(failed)">
     <classes>
+      <class name="testscripts.tc01">
+        <methods>
+          <include name="tc01"/>
+          <include name="openApp"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- testscripts.tc01 -->
       <class name="testscripts.tc00">
         <methods>
           <include name="tc00"/>

@@ -37,11 +37,13 @@ public class tc00 extends BaseClass {
             e.printStackTrace(); // or log the exception
         }
         */
-
+        Thread.sleep(10000);
+        
+        
         up.Upload();
        Thread.sleep(30000);
 
-       Runtime.getRuntime().exec("F:\\Autoit\\DTMT.exe");
+       Runtime.getRuntime().exec("F:\\Autoit\\deeptiautocv.exe");
 
 
        /*

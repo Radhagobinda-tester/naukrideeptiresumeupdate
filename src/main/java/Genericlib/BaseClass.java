@@ -21,7 +21,7 @@ public class BaseClass {
 
 	public WebDriverDriverUtilies driverutilies = new WebDriverDriverUtilies();
 
-	@BeforeMethod
+	@BeforeMethod 
 
 	public void openApp() throws IOException {
 		WebDriverManager.chromedriver().setup();
